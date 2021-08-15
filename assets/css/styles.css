@@ -21,6 +21,10 @@ section{
 	background: #063647;
 }
 
+.section-1 h1{
+	text-align: center;
+}
+
 .section-2 {
 	background-color: #052D3D;
 }
@@ -86,6 +90,15 @@ a.nav-item:hover {
 
 .void-background {
 	background-color: transparent; 
+}
+
+.tags {
+	margin-bottom: 10px;
+}
+
+.tag.is-orange {
+	background: #ee9b00;
+	color: #000;
 }
 
 @media screen and (max-width: 768px) {
