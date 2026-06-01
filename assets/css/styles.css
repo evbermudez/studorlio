@@ -29,6 +29,10 @@ section{
 	background-color: #052D3D;
 }
 
+.section-skills {
+	background-color: #073b4f;
+}
+
 .section-2 .tags {
 	margin: 10px 0;
 }
@@ -92,6 +96,42 @@ a.nav-item:hover {
 	margin: 0 auto;
 }
 
+.skills-grid {
+	display: grid;
+	gap: 1.5rem;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.skill-group {
+	background: rgba(5, 45, 61, 0.55);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-radius: 6px;
+	padding: 1.5rem;
+}
+
+.skill-group h4 {
+	color: #fff;
+	font-size: 1.1rem;
+	font-weight: 700;
+	margin-bottom: 0.85rem;
+}
+
+.skill-group h4 .fa {
+	color: #00d1b2;
+	margin-right: 0.35rem;
+}
+
+.skill-group .tags {
+	align-items: flex-start;
+	gap: 0.45rem;
+	justify-content: flex-start;
+	margin-bottom: 0;
+}
+
+.skill-group .tag {
+	margin-bottom: 0.45rem;
+}
+
 .void-background {
 	background-color: transparent; 
 }
@@ -106,6 +146,10 @@ a.nav-item:hover {
 }
 
 @media screen and (max-width: 768px) {
+	.skills-grid {
+		grid-template-columns: 1fr;
+	}
+
 	.nav-menu {
 		background-color: #063647;
 	}
