@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Mission Control</title>
+  <desc id="desc">A command center dashboard with orbit paths and status panels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="54" y1="58" x2="458" y2="454" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#073b4f"/>
+      <stop offset="0.5" stop-color="#052d3d"/>
+      <stop offset="1" stop-color="#0e282e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="128" y1="160" x2="384" y2="352" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d1b2"/>
+      <stop offset="1" stop-color="#ee9b00"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="48" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="178" fill="none" stroke="#dfdfdf" stroke-opacity="0.12" stroke-width="2"/>
+  <circle cx="256" cy="256" r="122" fill="none" stroke="#dfdfdf" stroke-opacity="0.14" stroke-width="2"/>
+  <path d="M113 256c49-80 237-80 286 0-49 80-237 80-286 0Z" fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M256 113c80 49 80 237 0 286-80-49-80-237 0-286Z" fill="none" stroke="#00d1b2" stroke-opacity="0.82" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="256" cy="256" r="42" fill="#052d3d" stroke="#00d1b2" stroke-width="8"/>
+  <circle cx="256" cy="256" r="14" fill="#ee9b00"/>
+  <g fill="#dfdfdf">
+    <rect x="94" y="104" width="88" height="16" rx="8" opacity="0.78"/>
+    <rect x="94" y="132" width="58" height="12" rx="6" opacity="0.5"/>
+    <rect x="330" y="104" width="88" height="16" rx="8" opacity="0.78"/>
+    <rect x="360" y="132" width="58" height="12" rx="6" opacity="0.5"/>
+    <rect x="94" y="376" width="88" height="16" rx="8" opacity="0.78"/>
+    <rect x="94" y="404" width="58" height="12" rx="6" opacity="0.5"/>
+    <rect x="330" y="376" width="88" height="16" rx="8" opacity="0.78"/>
+    <rect x="360" y="404" width="58" height="12" rx="6" opacity="0.5"/>
+  </g>
+  <g fill="#00d1b2">
+    <circle cx="173" cy="187" r="8"/>
+    <circle cx="338" cy="185" r="8"/>
+    <circle cx="174" cy="327" r="8"/>
+    <circle cx="338" cy="327" r="8"/>
+  </g>
+</svg>

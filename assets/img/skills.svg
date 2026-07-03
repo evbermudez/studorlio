@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+	<title id="title">Skills repository thumbnail</title>
+	<desc id="desc">A stylized skills folder with connected workflow nodes.</desc>
+	<rect width="256" height="256" rx="28" fill="#052d3d"/>
+	<path d="M38 74c0-9 7-16 16-16h50l17 20h81c9 0 16 7 16 16v91c0 9-7 16-16 16H54c-9 0-16-7-16-16V74z" fill="#00d1b2"/>
+	<path d="M38 100h180v85c0 9-7 16-16 16H54c-9 0-16-7-16-16v-85z" fill="#073b4f"/>
+	<path d="M61 122h134v55H61z" fill="#0e5268" stroke="#9ff6e9" stroke-width="4"/>
+	<circle cx="91" cy="150" r="13" fill="#ee9b00"/>
+	<circle cx="129" cy="150" r="13" fill="#00d1b2"/>
+	<circle cx="167" cy="150" r="13" fill="#e7f8f5"/>
+	<path d="M104 150h12m26 0h12" stroke="#e7f8f5" stroke-width="6" stroke-linecap="round"/>
+	<path d="M74 88h108" stroke="#e7f8f5" stroke-width="8" stroke-linecap="round" opacity=".7"/>
+	<path d="M78 57h38l18 21" fill="none" stroke="#e7f8f5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/>
+</svg>
