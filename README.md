@@ -1,40 +1,34 @@
-# Studorlio
+# Eric Bermudez — Portfolio
 
-Studorlio is a template for your own personal site. You can have yours running on the cloud in exactly 10 seconds. But first, make sure you have a GitHub account. Ready, set, go!
+Personal portfolio for Eric Bermudez, a senior full-stack SaaS engineer working across Laravel, React, TypeScript, PostgreSQL, multi-tenant architecture, and AI-assisted engineering workflows.
 
-![Display Image](https://raw.githubusercontent.com/helfi92/studorlio/master/assets/img/studorlio.png)
+## What the site highlights
 
-## Getting Started
-1. Fork the repository to make it yours.
-2. Rename the forked repository to `username.github.io`, where `username` is your GitHub username.
-3. That's it! Navigate to `username.github.io` to see your website :) 
+- End-to-end ownership of business applications, from data modeling to deployment.
+- Multi-tenant SaaS and ERP engineering through Archimedes.
+- Commercial product experience across marketplaces, analytics, accounting, and mobile-backed applications.
+- Developer tooling and reusable agent workflows through Mission Control and the Skills repository.
 
-If this is your first time making a website and is having trouble getting started, that's ok. Head over to the [FAQ](#faq) section and let me try help you.
+## Run locally
 
-## Demo
-[http://www.hassanali.me/studorlio/](http://www.hassanali.me/studorlio/)
+The site is static and has no build step or runtime dependencies.
 
-## FAQ
-* [How do I fork this repository?](#how-do-i-fork-this-repository)
-* [How do I rename the forked repository?](#how-do-i-rename-the-forked-repository)
-* [How do I run the portfolio locally?](#how-do-i-run-the-portfolio-locally)
+1. Open `index.html` directly in a browser, or serve the directory with any static HTTP server.
+2. Edit portfolio content in `index.html`.
+3. Edit presentation styles in `assets/css/styles.css`.
 
-### How do I fork this repository?
-1. Make sure you're logged into GitHub with your account
-2. Click the Fork button on the upper right-hand side of this page
+## Structure
 
-### How do I rename the forked repository?
-1. Navigate to the main page of the repository. It should be `https://github.com/username/studorlio/`, where `username` is your GitHub username
-2. Click Settings
-3. Under the Repository name heading, type `username.github.io` then click Rename
+```text
+studorlio/
+├── assets/
+│   ├── css/styles.css
+│   └── img/
+├── controller.js
+├── index.html
+└── README.md
+```
 
-### How do I run the portfolio locally?
-1. Right click (Windows) or double click (Mac) `index.html` and select "Open with"
-2. Pick your browser of choice
+## Deployment
 
-## Bugs and Issues
-Have a bug or an issue with this template? [Open a new issue](https://github.com/helfi92/studorlio/issues)
-
-## License
-Code released under the [MIT](https://github.com/helfi92/studorlio/blob/master/LICENSE) license
-
+The repository can be published through any static host, including GitHub Pages, Netlify, or Vercel.

@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Portfolio</title>
+	<meta charset="utf-8">
+	<title>Eric Bermudez | Senior Full-Stack SaaS Engineer</title>
 	<!-- css files -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
 	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
-	<meta name="author" content="Hassan Ali">
+	<meta name="author" content="Eric Bermudez">
+	<meta name="description" content="Senior full-stack SaaS engineer building multi-tenant platforms, business-critical workflows, and AI-assisted development systems.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 	<body>
@@ -17,7 +19,7 @@
 			<!-- This "nav-menu" is hidden on mobile -->
 			<!-- Add the modifier "is-active" to display it on mobile -->
 			<div class="nav-left">
-				<a href="https://github.com/evbermudez" class="nav-item">
+				<a href="https://github.com/evbermudez" class="nav-item" target="_blank" rel="noopener noreferrer" aria-label="Eric Bermudez on GitHub">
 					<span class="icon">
 						<i class="fa fa-github"></i>
 					</span>
@@ -28,6 +30,7 @@
 				<a class="nav-item" href="#about">About</a>
 				<a class="nav-item" href="#skills">Skills</a>
 				<a class="nav-item" href="#projects">Projects</a>
+				<a class="nav-item" href="#contact">Contact</a>
 			</div>
 
 			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
@@ -39,20 +42,27 @@
 			</span>
 		</nav>
 				
-		<!-- About Me -->
+		<!-- Introduction -->
 		<section id="about" class="section section-1">
-			<div class="container has-text-centered">
-				<!-- Source: https://flic.kr/p/pAZBNK -->
-				<img class="avatar" src="assets/img/profile.jpg">
+			<div class="container hero-layout">
+				<div class="hero-photo">
+					<img class="avatar" src="assets/img/profile.jpg" alt="Eric Bermudez">
+				</div>
 
-				<h1 class="title is-2">Eric Bermudez</h1>
+				<div class="hero-copy">
+					<p class="eyebrow">Senior Full-Stack SaaS Engineer</p>
+					<h1 class="title is-1">Eric Bermudez</h1>
+					<p class="hero-lead">
+						I build multi-tenant business platforms, transactional workflows, APIs, and AI-assisted development systems using Laravel, React, TypeScript, and PostgreSQL.
+					</p>
+					<p class="hero-summary">
+						For more than 10 years, I have helped turn product requirements into reliable software—from database design and backend services to frontend experiences, automated tests, and deployment.
+					</p>
 
-				<div class="columns">
-					<div class="column">
-						<i class="fa fa-phone-square"></i> +639175907700
-					</div>
-					<div class="column">
-						<i class="fa fa-envelope-o"></i> ev.bermudez@gmail.com
+					<div class="hero-actions">
+						<a href="#projects" class="button is-primary">View selected work</a>
+						<a href="https://docs.google.com/document/d/1UvdStJguibHbBPi9-Iz4QVfY9puTVVBSgHOJR4fe08c/edit?usp=sharing" class="button is-primary is-outlined" target="_blank" rel="noopener noreferrer">Resume</a>
+						<a href="mailto:ev.bermudez@gmail.com" class="button is-primary is-outlined">Email me</a>
 					</div>
 				</div>
 			</div>
@@ -62,60 +72,60 @@
 		<section id="skills" class="section section-skills">
 			<div class="container">
 				<div class="has-text-centered">
-					<h3 class="title is-3">Skills</h3>
+					<p class="eyebrow">Core expertise</p>
+					<h2 class="title is-3 section-title">Building products from data model to delivery</h2>
 				</div>
 
 				<div class="skills-grid">
 					<div class="skill-group">
-						<h4><i class="fa fa-server"></i> Backend</h4>
+						<h4><i class="fa fa-server"></i> Backend &amp; Architecture</h4>
+						<p>Tenant-aware services, business rules, integrations, and durable data models.</p>
 						<div class="tags are-medium">
 							<span class="tag is-primary">Laravel</span>
 							<span class="tag">PHP</span>
-							<span class="tag is-info">REST API</span>
-							<span class="tag is-danger">Database</span>
-							<span class="tag is-danger">MySQL</span>
+							<span class="tag is-info">REST APIs</span>
 							<span class="tag is-success">PostgreSQL</span>
-							<span class="tag is-success">Node.js</span>
+							<span class="tag is-danger">MySQL</span>
+							<span class="tag is-success">Redis</span>
 						</div>
 					</div>
 
 					<div class="skill-group">
-						<h4><i class="fa fa-code"></i> Frontend</h4>
+						<h4><i class="fa fa-code"></i> Frontend &amp; Product</h4>
+						<p>Responsive interfaces and complete product workflows for web applications.</p>
 						<div class="tags are-medium">
-							<span class="tag is-primary">Vue.js</span>
 							<span class="tag is-info">React</span>
+							<span class="tag is-primary">TypeScript</span>
+							<span class="tag is-primary">Vue.js</span>
+							<span class="tag is-info">JavaScript</span>
 							<span class="tag">HTML</span>
 							<span class="tag is-warning">CSS</span>
-							<span class="tag">JS</span>
-							<span class="tag is-warning">SCSS</span>
-							<span class="tag is-warning">Sass</span>
-							<span class="tag is-warning">Stylus</span>
-							<span class="tag is-info">Photoshop</span>
-							<span class="tag is-info">PSD to HTML</span>
+							<span class="tag is-info">Figma</span>
 						</div>
 					</div>
 
 					<div class="skill-group">
-						<h4><i class="fa fa-rocket"></i> AI &amp; Agentic Coding</h4>
+						<h4><i class="fa fa-shield"></i> SaaS &amp; Reliability</h4>
+						<p>Secure, testable delivery for business-critical and multi-tenant systems.</p>
 						<div class="tags are-medium">
-							<span class="tag is-primary">AI Skills</span>
-							<span class="tag is-primary">skills.md</span>
-							<span class="tag is-info">Claude</span>
-							<span class="tag is-info">Codex</span>
-							<span class="tag is-info">OpenAI</span>
-							<span class="tag is-info">AI Workflows</span>
-							<span class="tag is-info">Prompt Engineering</span>
-							<span class="tag is-info">MCP</span>
-						</div>
-					</div>
-
-					<div class="skill-group">
-						<h4><i class="fa fa-cloud"></i> Deployment &amp; Tools</h4>
-						<div class="tags are-medium">
-							<span class="tag is-success">Laravel Forge</span>
-							<span class="tag is-success">Envoyer</span>
-							<span class="tag is-success">Digital Ocean</span>
+							<span class="tag is-primary">Multi-Tenancy</span>
+							<span class="tag is-info">Automated Testing</span>
+							<span class="tag is-success">CI/CD</span>
+							<span class="tag is-success">Docker</span>
 							<span class="tag is-orange">Git</span>
+							<span class="tag is-info">Cloud Deployment</span>
+						</div>
+					</div>
+
+					<div class="skill-group">
+						<h4><i class="fa fa-rocket"></i> AI-Assisted Engineering</h4>
+						<p>Structured agent workflows for planning, implementation, review, and documentation.</p>
+						<div class="tags are-medium">
+							<span class="tag is-primary">Agent Workflow Design</span>
+							<span class="tag is-info">OpenAI Codex</span>
+							<span class="tag is-info">Claude</span>
+							<span class="tag is-info">MCP</span>
+							<span class="tag is-success">Review Automation</span>
 						</div>
 					</div>
 				</div>
@@ -125,10 +135,12 @@
 		<!-- Projects -->
 		<section  id="projects" class="section section-2">
 			<div class="container">
-				<div class="has-text-centered">
-					<h3 class="title is-3">Projects</h3>
+				<div class="has-text-centered section-heading">
+					<p class="eyebrow">Selected work</p>
+					<h2 class="title is-3 section-title">Products, platforms, and engineering systems</h2>
+					<p>Commercial SaaS experience backed by hands-on architecture, product delivery, and workflow automation.</p>
 				</div>
-				
+
 					<div class="columns is-multiline is-desktop">
 						<!-- Project 1 -->
 						<div class="column is-one-third-desktop is-full-mobile">
@@ -136,28 +148,28 @@
 								<article>
 									<div>
 										<figure class="image project-figure">
-											<img src="assets/img/skills.svg" alt="Skills">
+											<img src="assets/img/archimedes.png" alt="Archimedes">
 										</figure>
 									</div>
-									<div>
-										<h3 class="title is-4">Skills</h3>
+									<div class="project-content">
+										<p class="project-kicker">Flagship platform</p>
+										<h3 class="title is-4">Archimedes</h3>
 										<p>
-											AI skills folder for codifying reusable workflows, development patterns, and agent-ready project knowledge.
+											Modular, database-per-tenant ERP/SaaS platform spanning ecommerce, payments, CRM, CMS, helpdesk, POS, invoicing, projects, and customer portals.
+										</p>
+										<p class="project-contribution">
+											I deliver tenant-safe services, React workflows, PostgreSQL migrations, automated tests, production fixes, and structured release workflows.
 										</p>
 									</div>
 
-									<p>&nbsp;</p>
-									<p>&nbsp;</p>
-									<p>&nbsp;</p>
-
 									<div class="tags are-medium">
-										<span class="tag is-primary">AI Skills</span>
-										<span class="tag is-info">Codex</span>
-										<span class="tag is-success">Automation</span>
+										<span class="tag is-info">Laravel</span>
+										<span class="tag is-info">React</span>
+										<span class="tag is-success">PostgreSQL</span>
 									</div>
 
 									<div class="buttons are-small">
-										<a href="https://github.com/evbermudez/skills" class="button is-small is-primary is-outlined">Github</a>
+										<a href="https://home.archimedesfactory.com/" class="button is-small is-primary is-outlined" target="_blank" rel="noopener noreferrer">Website</a>
 									</div>
 								</article>
 							</div>
@@ -172,25 +184,25 @@
 											<img src="assets/img/mission-control.svg" alt="Mission Control">
 										</figure>
 									</div>
-									<div>
+									<div class="project-content">
+										<p class="project-kicker">Developer tooling</p>
 										<h3 class="title is-4">Mission Control</h3>
 										<p>
-											Personal command center for coordinating development workflows, project context, and automation from one focused interface.
+											Local React and TypeScript dashboard for branches, pull requests, CI state, Codex jobs, and repeatable review-loop actions.
+										</p>
+										<p class="project-contribution">
+											Designed with whitelisted commands and copy-safe defaults so workflow automation does not expose arbitrary shell execution.
 										</p>
 									</div>
 
-									<p>&nbsp;</p>
-									<p>&nbsp;</p>
-									<p>&nbsp;</p>
-
 									<div class="tags are-medium">
-										<span class="tag is-info">Automation</span>
-										<span class="tag is-info">Workflows</span>
-										<span class="tag is-success">Tools</span>
+										<span class="tag is-info">React</span>
+										<span class="tag is-primary">TypeScript</span>
+										<span class="tag is-success">Developer Tools</span>
 									</div>
 
 									<div class="buttons are-small">
-										<a href="https://github.com/evbermudez/mission-control" class="button is-small is-primary is-outlined">Github</a>
+										<a href="https://github.com/evbermudez/mission-control" class="button is-small is-primary is-outlined" target="_blank" rel="noopener noreferrer">GitHub</a>
 									</div>
 								</article>
 							</div>
@@ -202,28 +214,28 @@
 								<article>
 									<div>
 										<figure class="image project-figure">
-											<img src="assets/img/archimedes.png" alt="Archimedes">
+											<img src="assets/img/skills.svg" alt="Reusable AI engineering skills">
 										</figure>
 									</div>
-									<div>
-										<h3 class="title is-4">Archimedes</h3>
+									<div class="project-content">
+										<p class="project-kicker">Workflow design</p>
+										<h3 class="title is-4">Agent Skills</h3>
 										<p>
-											Modular Laravel and React platform for building tenant-aware business applications with reusable core services.
+											Portable skill library that turns engineering practices into reusable agent contracts for planning, reviews, commits, PRs, and worktree handoffs.
+										</p>
+										<p class="project-contribution">
+											Demonstrates practical AI workflow design for both Codex and Claude while keeping scope, verification, and safety explicit.
 										</p>
 									</div>
 
-									<p>&nbsp;</p>
-									<p>&nbsp;</p>
-									<p>&nbsp;</p>
-
 									<div class="tags are-medium">
-										<span class="tag is-info">Laravel</span>
-										<span class="tag is-info">React</span>
-										<span class="tag is-success">PostgreSQL</span>
+										<span class="tag is-primary">Agent Workflows</span>
+										<span class="tag is-info">Codex</span>
+										<span class="tag is-success">Automation</span>
 									</div>
 
 									<div class="buttons are-small">
-										<a href="https://home.archimedesfactory.com/" class="button is-small is-primary is-outlined">Website</a>
+										<a href="https://github.com/evbermudez/skills" class="button is-small is-primary is-outlined" target="_blank" rel="noopener noreferrer">GitHub</a>
 									</div>
 								</article>
 							</div>
@@ -238,10 +250,14 @@
 											<img src="assets/img/shiply.jpg" alt="Shiply">
 										</figure>
 									</div>
-									<div>
+									<div class="project-content">
+										<p class="project-kicker">Commercial marketplace</p>
 										<h3 class="title is-4">Shiply</h3>
 										<p>
 											Transport marketplace connecting customers with delivery providers for quotes, bookings, and shipment coordination.
+										</p>
+										<p class="project-contribution">
+											Maintained and modernized legacy PHP workflows, improved APIs, and automated reporting and finance integrations.
 										</p>
 									</div>
 
@@ -257,7 +273,7 @@
 
 									<div class="buttons are-small">
 										<a href="https://www.shiply.com/"
-										   class="button is-small is-primary is-outlined">Link</a>
+										   class="button is-small is-primary is-outlined" target="_blank" rel="noopener noreferrer">Website</a>
 									</div>
 								</article>
 							</div>
@@ -272,10 +288,14 @@
 											<img src="assets/img/erank-dashboard.jpg" alt="eRank">
 										</figure>
 									</div>
-									<div>
+									<div class="project-content">
+										<p class="project-kicker">SEO analytics SaaS</p>
 										<h3 class="title is-4">eRank</h3>
 										<p>
 											SEO and analytics platform for Etsy sellers, supporting keyword research, shop insights, and marketplace performance tracking.
+										</p>
+										<p class="project-contribution">
+											Built Laravel APIs and Vue features, data automation, background jobs, rate limiting, CSV exports, and seller calculation tools.
 										</p>
 									</div>
 
@@ -292,7 +312,7 @@
 
 									<div class="buttons are-small">
 										<a href="https://erank.com/"
-										   class="button is-small is-primary is-outlined">Link</a>
+										   class="button is-small is-primary is-outlined" target="_blank" rel="noopener noreferrer">Website</a>
 									</div>
 								</article>
 							</div>
@@ -307,7 +327,8 @@
 											<img src="assets/img/vyde-view-trans.jpg" alt="Vyde">
 										</figure>
 									</div>
-									<div>
+									<div class="project-content">
+										<p class="project-kicker">Accounting SaaS</p>
 										<h3 class="title is-4">Vyde Books</h3>
 										<p>
 											Online accounting platform that helps businesses manage bookkeeping workflows and financial records.
@@ -327,7 +348,7 @@
 
 									<div class="buttons are-small">
 										<a href="https://vyde.io/"
-										   class="button is-small is-primary is-outlined">Link</a>
+										   class="button is-small is-primary is-outlined" target="_blank" rel="noopener noreferrer">Website</a>
 									</div>
 								</article>
 							</div>
@@ -485,21 +506,24 @@
 			</div>
 		</section>
 
-		<section id="social" class="section section-3">
-			<div class="container">
-				<div class="social-container columns">
-					<div class="column has-text-centered">
-						<a class="button is-primary" target="_blank" href="https://docs.google.com/document/d/1UvdStJguibHbBPi9-Iz4QVfY9puTVVBSgHOJR4fe08c/edit?usp=sharing">
-							<i class="fa fa-file-o"></i>&nbsp;Resume
-						</a>
-					</div>
+		<section id="contact" class="section section-3">
+			<div class="container contact-panel">
+				<p class="eyebrow">Let&rsquo;s work together</p>
+				<h2 class="title is-3 section-title">Need a senior engineer who can own the full delivery path?</h2>
+				<p>
+					I&rsquo;m interested in senior full-stack, SaaS platform, product engineering, and developer-productivity opportunities.
+				</p>
+				<div class="hero-actions">
+					<a href="mailto:ev.bermudez@gmail.com" class="button is-primary">Email me</a>
+					<a href="https://github.com/evbermudez" class="button is-primary is-outlined" target="_blank" rel="noopener noreferrer">GitHub</a>
+					<a href="https://docs.google.com/document/d/1UvdStJguibHbBPi9-Iz4QVfY9puTVVBSgHOJR4fe08c/edit?usp=sharing" class="button is-primary is-outlined" target="_blank" rel="noopener noreferrer">Resume</a>
 				</div>
 			</div>
 		</section>
 		
 		<!-- Footer -->
 		<section class="section-4 has-text-centered container">
-			Eric Bermudez
+			&copy; 2026 Eric Bermudez
 		</section>
 		
 		<!-- Scripts  -->
