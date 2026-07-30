@@ -1,6 +1,6 @@
 # Eric Bermudez — Portfolio
 
-Personal portfolio for Eric Bermudez, a senior full-stack SaaS engineer working across Laravel, React, TypeScript, PostgreSQL, multi-tenant architecture, and AI-assisted engineering workflows.
+Personal portfolio for Eric Bermudez, a full-stack SaaS engineer working across Laravel, React, TypeScript, PostgreSQL, multi-tenant architecture, and AI-assisted engineering workflows.
 
 ## What the site highlights
 
